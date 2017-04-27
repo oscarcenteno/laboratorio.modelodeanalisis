@@ -44,9 +44,13 @@
     <Compile Include="GeneracionDeEmisionDeCertificados\EmisionDeCertificados.cs" />
     <Compile Include="GeneracionDeEmisionDeCertificados\GeneracionDeLaEmision.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransferenciasEntreCuentasPropias\EnvioDeTransferencias.cs" />
+    <Compile Include="TransferenciasEntreCuentasPropias\Monedas.cs" />
+    <Compile Include="TransferenciasEntreCuentasPropias\Transferencia.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GeneracionDeEmisionDeCertificados\Modelo de analisis.cd" />
+    <None Include="TransferenciasEntreCuentasPropias\Modelo de Analisis.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
